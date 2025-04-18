@@ -107,14 +107,16 @@
   </div>
 
   <div class="max-w-3xl mx-auto px-5 py-10 relative z-10">
-    <!-- Header with logos - MODIFIED: removed white backgrounds -->
+    <!-- Header with logos - Adjusted as requested -->
     <div class="mb-12 flex flex-col sm:flex-row justify-between items-center">
       <div class="flex items-center gap-4 mb-6 sm:mb-0">
-        <div class="w-16 h-16 flex items-center justify-center">
+        <div class="w-16 h-16 rounded-full border-2 border-white flex items-center justify-center shadow-sm">
+          <!-- VIB logo with transparent background inside white border -->
           <img alt="VIB logo" class="w-14 h-14 object-contain" src="https://i.ibb.co/3QCRZbY/1.png"/>
         </div>
         <span class="text-white text-3xl font-bold px-2">×</span>
-        <div class="w-16 h-16 flex items-center justify-center">
+        <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-sm">
+          <!-- Shopee logo with white circular background -->
           <img alt="Shopee logo" class="w-14 h-14 object-contain" src="https://i.ibb.co/2LtpRh5/2.png"/>
         </div>
       </div>
@@ -126,17 +128,17 @@
       </div>
     </div>
     
-    <!-- Hero section -->
+    <!-- Hero section - Removed VIB card holder image -->
     <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-white/20">
-      <div class="flex flex-col md:flex-row items-center gap-6">
-        <div class="flex-1 text-center md:text-left">
+      <div class="flex flex-col items-center">
+        <div class="text-center">
           <h1 class="text-3xl md:text-4xl font-extrabold text-white leading-tight mb-4">
             <span class="bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-yellow-400">CÀ NĂM MUA SẮM</span>
             <br/>
             <span class="text-white">NHẬN NGAY ƯU ĐÃI</span>
           </h1>
           <p class="text-blue-100 mb-6">Khám phá ưu đãi đặc biệt từ VIB x Shopee</p>
-          <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <div class="promo-card shine-effect bg-gradient-to-br from-shopeeOrange to-shopeeDarkOrange rounded-xl px-6 py-4 flex flex-col items-center text-white shadow-lg">
               <span class="text-lg font-bold">GIẢM NGAY</span>
               <span class="text-4xl font-extrabold mt-1">100.000</span>
@@ -151,13 +153,6 @@
               <div class="mt-2 w-full h-px bg-white/30"></div>
               <span class="text-xs font-medium mt-2 uppercase tracking-widest">KHI MỞ THẺ TÍN DỤNG</span>
             </div>
-          </div>
-        </div>
-        <div class="flex-shrink-0 animate-float">
-          <div class="relative">
-            <div class="absolute -top-5 -left-5 w-10 h-10 bg-yellow-400 rounded-full opacity-70 blur-md animate-pulse-soft"></div>
-            <div class="absolute -bottom-3 -right-3 w-8 h-8 bg-shopeeOrange rounded-full opacity-70 blur-md animate-pulse-soft" style="animation-delay: 1.5s;"></div>
-            <img alt="VIB card holder" class="w-48 md:w-56 object-contain rounded-xl" src="https://storage.googleapis.com/a1aa/image/7d0cb92c-9d8a-435c-c6aa-7f89da18f44c.jpg"/>
           </div>
         </div>
       </div>
